@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PassionTea Home" parallel="false">
+  <test name="Find a Tag elements">
+    <classes>
+      <class name="SmokeTests.ATagsTest"/>
+      <class name="SmokeTests.ValidateCheckOutLink"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
