@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="PassionTea Website Automation suite" verbose="1" >
+
+<listeners>
+		<listener class-name="com.PassionTea.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+  <test name="Passion Tea Test cases" >
+    <classes>
+       <class name="com.PassionTea.testcases.WelcomePageTest" />
+       <class name="com.PassionTea.testcases.CheckOutPageTest" />
+        <class name="com.PassionTea.testcases.MenuPageTest" />
+     </classes>
+  </test>
+</suite>

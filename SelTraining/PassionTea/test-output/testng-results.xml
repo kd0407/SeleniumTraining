@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PassionTea Website Automation suite" duration-ms="136396" started-at="2018-05-03T16:41:24Z" finished-at="2018-05-03T16:43:40Z">
+    <groups>
+    </groups>
+    <test name="Passion Tea Test cases" duration-ms="136396" started-at="2018-05-03T16:41:24Z" finished-at="2018-05-03T16:43:40Z">
+      <class name="com.PassionTea.testcases.MenuPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="setup" is-config="true" duration-ms="18151" started-at="2018-05-03T16:42:00Z" finished-at="2018-05-03T16:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyMenuPageTitle()[pri:1, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="verifyMenuPageTitle" duration-ms="16" started-at="2018-05-03T16:42:18Z" finished-at="2018-05-03T16:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="teardown" is-config="true" duration-ms="729" started-at="2018-05-03T16:42:18Z" finished-at="2018-05-03T16:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="setup" is-config="true" duration-ms="16093" started-at="2018-05-03T16:43:23Z" finished-at="2018-05-03T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCheckout1Link()[pri:2, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="verifyCheckout1Link" duration-ms="83" started-at="2018-05-03T16:43:39Z" finished-at="2018-05-03T16:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout1Link -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.PassionTea.testcases.MenuPageTest@13deb50e]" name="teardown" is-config="true" duration-ms="736" started-at="2018-05-03T16:43:39Z" finished-at="2018-05-03T16:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.PassionTea.testcases.MenuPageTest -->
+      <class name="com.PassionTea.testcases.CheckOutPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="16819" started-at="2018-05-03T16:41:42Z" finished-at="2018-05-03T16:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkoutPageTitleTest()[pri:1, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="checkoutPageTitleTest" duration-ms="13" started-at="2018-05-03T16:41:59Z" finished-at="2018-05-03T16:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="749" started-at="2018-05-03T16:41:59Z" finished-at="2018-05-03T16:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="15996" started-at="2018-05-03T16:42:37Z" finished-at="2018-05-03T16:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewCheckOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="validateCreateNewCheckOut" duration-ms="1805" started-at="2018-05-03T16:42:53Z" data-provider="getCheckOutTestdata" finished-at="2018-05-03T16:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kalpanadontha@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kalpana Dontha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6225 Branchwood Trl Flower Mound TX 75028]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[787878.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kalpana Dontha]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[789.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewCheckOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="717" started-at="2018-05-03T16:42:55Z" finished-at="2018-05-03T16:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="setup" is-config="true" duration-ms="20023" started-at="2018-05-03T16:42:56Z" finished-at="2018-05-03T16:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateCreateNewCheckOut(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="validateCreateNewCheckOut" duration-ms="7027" started-at="2018-05-03T16:43:16Z" data-provider="getCheckOutTestdata" finished-at="2018-05-03T16:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KalpanaGoka@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kalpana Goka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1541 Long Prairie Rd Flower Mound TX 75022]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mastercard]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[909090.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kalpana Goka]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[130.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewCheckOut -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PassionTea.testcases.CheckOutPageTest@f6c48ac]" name="tearDown" is-config="true" duration-ms="691" started-at="2018-05-03T16:43:23Z" finished-at="2018-05-03T16:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PassionTea.testcases.CheckOutPageTest -->
+      <class name="com.PassionTea.testcases.WelcomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="setup" is-config="true" duration-ms="17464" started-at="2018-05-03T16:41:24Z" finished-at="2018-05-03T16:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="welcomePageTitleTest()[pri:1, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="welcomePageTitleTest" duration-ms="47" started-at="2018-05-03T16:41:41Z" finished-at="2018-05-03T16:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="tearDown" is-config="true" duration-ms="727" started-at="2018-05-03T16:41:41Z" finished-at="2018-05-03T16:41:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="setup" is-config="true" duration-ms="16490" started-at="2018-05-03T16:42:19Z" finished-at="2018-05-03T16:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="herbalTeaImgTest()[pri:2, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="herbalTeaImgTest" duration-ms="88" started-at="2018-05-03T16:42:35Z" finished-at="2018-05-03T16:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- herbalTeaImgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PassionTea.testcases.WelcomePageTest@464bee09]" name="tearDown" is-config="true" duration-ms="710" started-at="2018-05-03T16:42:35Z" finished-at="2018-05-03T16:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PassionTea.testcases.WelcomePageTest -->
+    </test> <!-- Passion Tea Test cases -->
+  </suite> <!-- PassionTea Website Automation suite -->
+</testng-results>
