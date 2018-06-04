@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22279" started-at="2018-05-28T16:46:15Z" finished-at="2018-05-28T16:46:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22279" started-at="2018-05-28T16:46:15Z" finished-at="2018-05-28T16:46:37Z">
+      <class name="com.AssertionsExamples.AssertionsExamples">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="init" is-config="true" duration-ms="533" started-at="2018-05-28T22:16:15Z" finished-at="2018-05-28T22:16:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="softAssertions()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="softAssertions" duration-ms="5695" started-at="2018-05-28T22:16:15Z" finished-at="2018-05-28T22:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertions -->
+        <test-method status="PASS" signature="validateAssertionsLogically()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateAssertionsLogically" duration-ms="1377" started-at="2018-05-28T22:16:21Z" finished-at="2018-05-28T22:16:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAssertionsLogically -->
+        <test-method status="PASS" signature="validateHashMapValueInList()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateHashMapValueInList" duration-ms="1368" started-at="2018-05-28T22:16:23Z" finished-at="2018-05-28T22:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHashMapValueInList -->
+        <test-method status="PASS" signature="validateMultipleAssertionsinsingleTest()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateMultipleAssertionsinsingleTest" duration-ms="1618" started-at="2018-05-28T22:16:24Z" finished-at="2018-05-28T22:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultipleAssertionsinsingleTest -->
+        <test-method status="PASS" signature="validateNameFromArrayList()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateNameFromArrayList" duration-ms="1623" started-at="2018-05-28T22:16:26Z" finished-at="2018-05-28T22:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNameFromArrayList -->
+        <test-method status="PASS" signature="validateNamesFromArryList()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateNamesFromArryList" duration-ms="1708" started-at="2018-05-28T22:16:27Z" finished-at="2018-05-28T22:16:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNamesFromArryList -->
+        <test-method status="PASS" signature="validateNoOfItems()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateNoOfItems" duration-ms="1769" started-at="2018-05-28T22:16:29Z" finished-at="2018-05-28T22:16:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNoOfItems -->
+        <test-method status="PASS" signature="validateQueryValue()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateQueryValue" duration-ms="4961" started-at="2018-05-28T22:16:31Z" finished-at="2018-05-28T22:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateQueryValue -->
+        <test-method status="PASS" signature="validateValueInsideMap()[pri:0, instance:com.AssertionsExamples.AssertionsExamples@72d818d1]" name="validateValueInsideMap" duration-ms="1549" started-at="2018-05-28T22:16:36Z" finished-at="2018-05-28T22:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValueInsideMap -->
+      </class> <!-- com.AssertionsExamples.AssertionsExamples -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

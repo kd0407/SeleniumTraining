@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Walmart SearchAPI testing" parallel="false">
+	<test name="WalmartRestAPI">
+		<classes>
+			<class name="walmartAPI.SearchJSONPathExamples" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
