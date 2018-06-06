@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="API testing" parallel="false">
+  <test name="VendorlyRestAPI">
+    <classes>
+      <class name="com.Vendorly.API.APITests.GetVendorEmpdetails"/>
+      <class name="com.Vendorly.API.APITests.IncliusiveCreateVendorType"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

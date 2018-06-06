@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -17,16 +18,17 @@ public class AltertBoxes {
 	@BeforeTest
 	public void setUP() {
 			
-		driver = new ChromeDriver();
+	
 		//Get Chrome driver
 		 System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe");
+			driver = new ChromeDriver();
 		//driver.get(URL);
 		//driver.manage().window().maximize();
 		
 	}
 	
 
-	@Test
+	/*@Test
 	public void getAutoclosableAlertMsg() {
 		
 		driver.get(URL);
@@ -54,27 +56,30 @@ public class AltertBoxes {
 		//alert.dismiss();
 		System.out.println("accepted/rejected");
 		
-	}
+	}*/
 	@Test
 	public void clickJSPromtBox() {
 		driver.get(URL);
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[3]/div[2]/button")).click();
+		driver.findElement(By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[3]/div[2]/button[@onclick='myPromptFunction()']")).click();
+		//driver.findElement(By.cssSelector("#easycont > div > div.col-md-6.text-left > div:nth-child(6) > div.panel-body > button[@onclick='myPromptFunction()']")).click();
 		
-		Alert alert=driver.switchTo().alert();
-		driver.switchTo().alert().sendKeys("Helllo");
-		alert.accept();
-		System.out.println(alert.getText());
+		//Alert alert=driver.switchTo().alert();
+		//driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		//driver.switchTo().alert().sendKeys("Helllo");
+		//alert.accept();
+		//System.out.println(alert.getText());
 		
 		//*[@id="easycont"]/div/div[2]/div[3]/div[2]/button
 	}
 	
 	
-	
+	/*
 	@AfterTest
 	public void teardown() {
 		driver.quit();
-	}
+		
+	}*/
 
 }

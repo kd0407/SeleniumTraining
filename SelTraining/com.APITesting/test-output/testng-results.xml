@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6726" started-at="2018-03-23T10:03:44Z" finished-at="2018-03-23T10:03:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6726" started-at="2018-03-23T10:03:44Z" finished-at="2018-03-23T10:03:50Z">
+      <class name="com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor@18be83e4]" name="init" is-config="true" duration-ms="435" started-at="2018-03-23T15:33:44Z" finished-at="2018-03-23T15:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="GetInclusiveVendorTypes()[pri:0, instance:com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor@18be83e4]" name="GetInclusiveVendorTypes" duration-ms="1777" started-at="2018-03-23T15:33:44Z" finished-at="2018-03-23T15:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInclusiveVendorTypes -->
+        <test-method status="PASS" signature="getActiveEmp()[pri:0, instance:com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor@18be83e4]" name="getActiveEmp" duration-ms="686" started-at="2018-03-23T15:33:46Z" finished-at="2018-03-23T15:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getActiveEmp -->
+        <test-method status="PASS" signature="getEmpIDForAVendor()[pri:0, instance:com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor@18be83e4]" name="getEmpIDForAVendor" duration-ms="1312" started-at="2018-03-23T15:33:46Z" finished-at="2018-03-23T15:33:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmpIDForAVendor -->
+        <test-method status="PASS" signature="validateEmpNoAndIAMIDIsSame()[pri:0, instance:com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor@18be83e4]" name="validateEmpNoAndIAMIDIsSame" duration-ms="2474" started-at="2018-03-23T15:33:48Z" finished-at="2018-03-23T15:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmpNoAndIAMIDIsSame -->
+      </class> <!-- com.Vendorly.API.com.APITesting.GetAllActiveEmployeeForAGivenVendor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

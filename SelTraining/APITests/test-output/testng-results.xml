@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6085" started-at="2018-04-18T05:14:40Z" finished-at="2018-04-18T05:14:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6085" started-at="2018-04-18T05:14:40Z" finished-at="2018-04-18T05:14:46Z">
+      <class name="com.Vendorly.API.APITests.GetVendorEmpdetails">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Vendorly.API.APITests.GetVendorEmpdetails@685cb137]" name="init" is-config="true" duration-ms="1085" started-at="2018-04-18T10:44:40Z" finished-at="2018-04-18T10:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="GetInclusiveVendorTypes()[pri:0, instance:com.Vendorly.API.APITests.GetVendorEmpdetails@685cb137]" name="GetInclusiveVendorTypes" duration-ms="2206" started-at="2018-04-18T10:44:41Z" finished-at="2018-04-18T10:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetInclusiveVendorTypes -->
+        <test-method status="PASS" signature="getActiveEmp()[pri:0, instance:com.Vendorly.API.APITests.GetVendorEmpdetails@685cb137]" name="getActiveEmp" duration-ms="1464" started-at="2018-04-18T10:44:43Z" finished-at="2018-04-18T10:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getActiveEmp -->
+        <test-method status="PASS" signature="getEmpIDForAVendor()[pri:0, instance:com.Vendorly.API.APITests.GetVendorEmpdetails@685cb137]" name="getEmpIDForAVendor" duration-ms="750" started-at="2018-04-18T10:44:44Z" finished-at="2018-04-18T10:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmpIDForAVendor -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Vendorly.API.APITests.GetVendorEmpdetails@685cb137]" name="afterClass" is-config="true" duration-ms="523" started-at="2018-04-18T10:44:45Z" finished-at="2018-04-18T10:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Vendorly.API.APITests.GetVendorEmpdetails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
