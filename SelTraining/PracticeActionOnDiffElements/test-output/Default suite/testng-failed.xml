@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Demo.JqueryDateCalendar">
+      <class name="Demo.AltertBoxes">
         <methods>
-          <include name="fromSelectDate"/>
+          <include name="teardown"/>
+          <include name="setUP"/>
+          <include name="clickJSPromtBox"/>
+          <include name="clickJSConfirmBox"/>
         </methods>
-      </class> <!-- Demo.JqueryDateCalendar -->
+      </class> <!-- Demo.AltertBoxes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
