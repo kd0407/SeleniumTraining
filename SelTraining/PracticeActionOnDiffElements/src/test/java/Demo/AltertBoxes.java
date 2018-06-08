@@ -26,7 +26,7 @@ public class AltertBoxes {
 	}
 	
 
-	@Test
+	/*@Test
 	public void getAutoclosableAlertMsg() {
 		
 		driver.get(URL);
@@ -38,8 +38,8 @@ public class AltertBoxes {
 		alert.accept();
 		
 		
-	}
-	@Test
+	}*/
+	/*@Test
 	public void clickJSConfirmBox() {
 	
 		driver.get(URL);
@@ -54,27 +54,30 @@ public class AltertBoxes {
 		//alert.dismiss();
 		System.out.println("accepted/rejected");
 		
-	}
+	}*/
 	@Test
 	public void clickJSPromtBox() {
 		driver.get(URL);
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[3]/div[2]/button")).click();
+		driver.findElement(By.xpath("//*[@id=\"easycont\"]/div/div[2]/div[3]/div[2]/button[@onclick='myPromptFunction()']")).click();
+		//driver.findElement(By.cssSelector("#easycont > div > div.col-md-6.text-left > div:nth-child(6) > div.panel-body > button")).click();
+		driver.switchTo().activeElement();
 		
-		Alert alert=driver.switchTo().alert();
+		
+		/*Alert alert=driver.switchTo().alert();
 		driver.switchTo().alert().sendKeys("Helllo");
 		alert.accept();
-		System.out.println(alert.getText());
+		System.out.println(alert.getText());*/
 		
 		//*[@id="easycont"]/div/div[2]/div[3]/div[2]/button
 	}
 	
 	
 	
-	@AfterTest
+	/*@AfterTest
 	public void teardown() {
 		driver.quit();
-	}
+	}*/
 
 }

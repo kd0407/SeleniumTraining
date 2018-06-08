@@ -5,10 +5,8 @@
     <classes>
       <class name="Demo.AltertBoxes">
         <methods>
-          <include name="teardown"/>
           <include name="setUP"/>
           <include name="clickJSPromtBox"/>
-          <include name="clickJSConfirmBox"/>
         </methods>
       </class> <!-- Demo.AltertBoxes -->
     </classes>
